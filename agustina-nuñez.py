@@ -1,3 +1,7 @@
+# Juego Adivina la palabra
+# Trabajo práctico Python
+# Agustina Nuñez
+
 import random
 
 palabras = ["python", "computadora", "programacion", "juego", "algoritmo"]
@@ -46,4 +50,5 @@ while vidas > 0:
         break
 
 if vidas == 0:
+
     print("\nPerdiste 😢 La palabra era:", palabra)
