@@ -4,7 +4,7 @@
 
 import random
 
-palabras = ["python", "computadora", "programacion", "juego", "algoritmo"]
+palabras = ["python", "computadora", "programacion", "juego", "algoritmo", "algoritmo", "variable"]
 palabra = random.choice(palabras)
 
 vidas = 6
@@ -52,3 +52,4 @@ while vidas > 0:
 if vidas == 0:
 
     print("\nPerdiste 😢 La palabra era:", palabra)
+
